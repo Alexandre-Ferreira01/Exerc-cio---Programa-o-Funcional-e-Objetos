@@ -2,30 +2,20 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Sistema de Avaliação</title>
+  <title>Operações em Vetores</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Sistema de Avaliação</h1>
+  <h1>Operações em Vetores</h1>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Questão</th>
-        <th>Peso</th>
-        <th>Resposta Correta</th>
-        <th>Resposta do Aluno</th>
-      </tr>
-    </thead>
-    <tbody id="tabela">
-    
-    </tbody>
-  </table>
+  <p>Digite os valores do vetor separados por vírgula:</p>
 
-  <button id="btn">Calcular Nota</button>
+  <input type="text" id="vetor" value="1,2,3,4,5,6">
 
-  <h2 id="resultado"></h2>
+  <button id="btn">Calcular</button>
+
+  <div id="resultado"></div>
 
   <script type="module" src="main.js"></script>
 </body>
